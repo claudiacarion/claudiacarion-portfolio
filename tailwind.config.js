@@ -15,11 +15,11 @@ module.exports = {
         quicksand: ["Quicksand", "sans-serif"]
       },
       colors: {
-        one: '#5F5449',
+        one: '#3B322C',
         two: '#9B6A6C',
         three: '#B09398',
         four: '#CEDFD9',
-        five: '#EDFFEC'
+        five: '#F5FBEF'
       }
     },
   },
