@@ -4,7 +4,8 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import Image from 'next/image'
-import pfp from '/public/pfp.png'
+import pfp from '/public/newpfp2bg.png'
+import lexicon from '/public/lexicon.png'
 
 export default function Home(): JSX.Element {
   return (
@@ -26,14 +27,13 @@ export default function Home(): JSX.Element {
                 </li>
             </ul>
           </nav> */}
-          <div className='relative mx-auto bg-five rounded-full w-80 h-80 overflow-hidden'>
+          <div className='relative mx-auto bg-five rounded-full w-64 h-64 overflow-hidden md:h-80 md:w-80'>
             <Image src={pfp} alt="pfp" layout="fill" objectFit='cover'/>
           </div>
           <div className=" text-center p-5">
             <h2 className=" text-2xl font-bold md:text-4xl">claudia pereira carion</h2>
             <h3 className=" text-xl py-2 md:text-2xl">fullstack javascript developer</h3>
-            <p className="pt-5 text-sm md:text-lg">originally from macau, currently living in stockholm.</p>
-            <p className='text-sm md:text-lg'>educator turned developer with a passion for creativity.</p>
+            <p className='text-md md:text-lg'>educator turned developer with a passion for creativity</p>
           </div>
           <div className='text-4xl flex justify-center gap-20 py-3 text-one'>
             <a href="https://www.linkedin.com/in/claudia-pereira-carion/"><AiFillLinkedin className='cursor-pointer'/></a>
@@ -41,16 +41,24 @@ export default function Home(): JSX.Element {
             <a href="mailto:claudia.carion@appliedtechnology.se"><MdEmail className='cursor-pointer'/></a>
           </div>
         </section>
+        <section className="">
+        <div className=" text-center p-5">
+        <h2 className=" text-2xl font-bold text-center">about me</h2>
+
+          </div>
+
+        </section>
 
         <section className="bg-three py-5 px-5 rounded-lg md:mx-12 lg:mx-24 ">
           <h2 className=" text-2xl font-bold text-center">projects</h2>
-          <div className="flex justify-center gap-5 py-5">
-            <div className="bg-five w-5/6 md:w-1/2 rounded-lg shadow-lg">
-              <h3 className=" text-xl font-bold text-center py-5">project 1</h3>
-              <p className=" text-center">description</p>
+          <div className="flex flex-col gap-5 py-5 md:justify-center">
+            <div className="bg-five w-full md:w-1/2 rounded-lg shadow-lg p-5">
+              <h3 className=" text-xl font-bold text-center pb-3">the friendly lexicon</h3>
+              <p className=" text-center">frontend project built with react and typescript, styled with tailwind css</p>
+              <Image src={lexicon} alt="lexicon" className='relative mx-auto w-5/6 rounded-lg'/>
             </div>
-            <div className="bg-five w-5/6 md:w-1/2 rounded-lg shadow-lg">
-              <h3 className=" text-xl font-bold text-center py-5">project 2</h3>
+            <div className="bg-five w-full md:w-1/2 rounded-lg shadow-lg">
+              <h3 className=" text-xl font-bold text-center pb-3">project 2</h3>
               <p className=" text-center">description</p>
             </div>
           </div>
