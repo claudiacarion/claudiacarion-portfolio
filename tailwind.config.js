@@ -19,7 +19,7 @@ module.exports = {
         two: '#9B6A6C',
         three: '#B09398',
         four: '#CEDFD9',
-        five: '#F5FBEF'
+        five: '#f8f8f8'
       }
     },
   },
