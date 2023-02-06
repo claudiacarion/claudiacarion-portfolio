@@ -47,14 +47,20 @@ export default function Home(): JSX.Element {
           </div>
         </section>
 
-        <section className="text-one h-screen">
+        <section className="text-one mb-24">
         <div className=" text-center p-5">
         <h2 className=" text-2xl font-bold text-center py-5">about me</h2>
-        <p className='text-md md:text-lg md:mx-12 lg:mx-48 border-2 border-black'>
+        <p className='text-md text-left md:mx-12 lg:mx-48 border-2 border-black'>
         For as long as I can remember, I&#39;ve been fascinated by computers.
-        It amazed me that with a few clicks here and there, the computer would do things I wanted it to.
+        It amazed me that with a few clicks here and there, the computer would do things I wanted it to do.
         So I&#39;m not exaggerting when I say my mind was blown the first time I was introduced to HTML.
-        What?! I typed a bunch of of things on Notepad and it turned into a website?!
+        What?! I typed a bunch of of things on Notepad and it turned into a website?! That was the Y2K.
+        <br/>
+        <br/>
+        Since then, no matter what I was studying or which field I was working in, I was always led back to computers.
+        After working in education for many years, I decided to combine my passion for creativity with my interest in computers and become a developer.
+        The opportunity to join a bootcamp at School of Applied Technology in Stockholm came up and I jumped at the chance.
+        After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack Javascript developer.
         </p>
           </div>
         </section>
