@@ -67,12 +67,12 @@ export default function Home(): JSX.Element {
 
         <section className="bg-three py-5 px-5 rounded-lg text-one md:mx-12 lg:mx-48">
           <h2 className=" text-2xl font-bold text-center">my projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-5">
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
               <h3 className=" text-lg font-bold text-center pb-3 md:text-xl">the friendly lexicon</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">frontend project created with react and typescript, styled with tailwindcss</p>
-              <div className='w-full h-1/2 '>
-              <Image src={lexicon} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto rounded-lg'/>
+              <div className='w-full h-1/2'>
+              <Image src={lexicon} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto md:w-2/3 rounded-lg'/>
               </div>
               <div className="flex justify-center gap-12">
               <a href="https://the-friendly-lexicon.netlify.app/"><TbBrowser className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
@@ -83,7 +83,7 @@ export default function Home(): JSX.Element {
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">pop-in</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">final project at school of applied technology, fullstack app created with nextjs, nextauth and mongodb, styled with css</p>
               <div className='w-full h-1/2'>
-              <Image src={popin} alt="lexicon" className='relative mx-auto shadow-lg rounded-lg w-full h-auto'/>
+              <Image src={popin} alt="lexicon" className='relative mx-auto shadow-lg rounded-lg w-full h-auto md:w-2/3'/>
               </div>
               <div className="flex justify-center gap-12">
               <a href="https://dashing-taffy-506794.netlify.app/"><TbBrowser className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
@@ -93,7 +93,7 @@ export default function Home(): JSX.Element {
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">golden (meme) retriever</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">my first fullstack project at school of applied technology, created with react and express, styled with css</p>
               <div className='w-full h-1/2'>
-              <Image src={meme} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto rounded-lg'/>
+              <Image src={meme} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto rounded-lg md:w-2/3'/>
           </div>
               <div className="flex justify-center gap-12">
               <a href="https://github.com/claudiacarion/goldenmemeretriever"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
@@ -103,7 +103,7 @@ export default function Home(): JSX.Element {
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">my portfolio</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">frontend app created with nextjs and typescript, styled with tailwindcss</p>
               <div className='w-full h-1/2'>
-              <Image src={portfolio} alt="lexicon" className='relative mx-auto shadow-lg w-full rounded-lg'/>
+              <Image src={portfolio} alt="lexicon" className='relative mx-auto shadow-lg w-full rounded-lg md:w-2/3'/>
               </div>
               <div className="flex justify-center gap-12">
               <a href="https://github.com/claudiacarion/claudiacarion-portfolio"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
