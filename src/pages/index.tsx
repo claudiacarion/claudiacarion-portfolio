@@ -41,9 +41,9 @@ export default function Home(): JSX.Element {
             <p className='text-md md:text-lg'>educator turned developer with a passion for creativity</p>
           </div>
           <div className='text-4xl flex justify-center gap-20 py-3 text-one'>
-            <a href="https://www.linkedin.com/in/claudia-pereira-carion/"><AiFillLinkedin className='cursor-pointer hover:text-two'/></a>
-            <a href="https://github.com/claudiacarion"><AiFillGithub className='cursor-pointer hover:text-two'/></a>
-            <a href="mailto:claudia.carion@appliedtechnology.se"><MdEmail className='cursor-pointer hover:text-two'/></a>
+            <a href="https://www.linkedin.com/in/claudia-pereira-carion/"><AiFillLinkedin className='cursor-pointer hover:text-two hover:text-5xl'/></a>
+            <a href="https://github.com/claudiacarion"><AiFillGithub className='cursor-pointer hover:text-two hover:text-5xl'/></a>
+            <a href="mailto:claudia.carion@appliedtechnology.se"><MdEmail className='cursor-pointer hover:text-two hover:text-5xl'/></a>
           </div>
         </section>
 
@@ -71,7 +71,9 @@ export default function Home(): JSX.Element {
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
               <h3 className=" text-lg font-bold text-center pb-3 md:text-xl">the friendly lexicon</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">frontend project created with react and typescript, styled with tailwindcss</p>
-              <Image src={lexicon} alt="lexicon" className='relative mx-auto shadow-lg w-5/6 rounded-lg'/>
+              <div className='w-full h-1/2 '>
+              <Image src={lexicon} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto rounded-lg'/>
+              </div>
               <div className="flex justify-center gap-12">
               <a href="https://the-friendly-lexicon.netlify.app/"><TbBrowser className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
               <a href="https://github.com/claudiacarion/the-friendly-lexicon"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
@@ -80,7 +82,9 @@ export default function Home(): JSX.Element {
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">pop-in</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">final project at school of applied technology, fullstack app created with nextjs, nextauth and mongodb, styled with css</p>
-              <Image src={popin} alt="lexicon" className='relative mx-auto shadow-lg w-5/6 rounded-lg'/>
+              <div className='w-full h-1/2'>
+              <Image src={popin} alt="lexicon" className='relative mx-auto shadow-lg rounded-lg w-full h-auto'/>
+              </div>
               <div className="flex justify-center gap-12">
               <a href="https://dashing-taffy-506794.netlify.app/"><TbBrowser className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
             </div>
@@ -88,23 +92,19 @@ export default function Home(): JSX.Element {
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">golden (meme) retriever</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">my first fullstack project at school of applied technology, created with react and express, styled with css</p>
-              <Image src={meme} alt="lexicon" className='relative mx-auto shadow-lg w-5/6 rounded-lg'/>
+              <div className='w-full h-1/2'>
+              <Image src={meme} alt="lexicon" className='relative mx-auto shadow-lg w-full h-auto rounded-lg'/>
+          </div>
               <div className="flex justify-center gap-12">
               <a href="https://github.com/claudiacarion/goldenmemeretriever"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
             </div>
             </div>
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
-              <h3 className="text-lg font-bold text-center pb-3 md:text-xl">tiny blog</h3>
-              <p className=" text-center text-sm h-1/4 md:text-md">frontend app created with react and typescript, fetching from an external api, styled with css</p>
-              <Image src={tinyblog} alt="lexicon" className='relative mx-auto shadow-lg w-5/6 rounded-lg'/>
-              <div className="flex justify-center gap-12">
-              <a href="https://github.com/claudiacarion/ts-react-tinyblog"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
-            </div>
-            </div>
-            <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-96">
               <h3 className="text-lg font-bold text-center pb-3 md:text-xl">my portfolio</h3>
               <p className=" text-center text-sm h-1/4 md:text-md">frontend app created with nextjs and typescript, styled with tailwindcss</p>
-              <Image src={portfolio} alt="lexicon" className='relative mx-auto shadow-lg w-5/6 rounded-lg'/>
+              <div className='w-full h-1/2'>
+              <Image src={portfolio} alt="lexicon" className='relative mx-auto shadow-lg w-full rounded-lg'/>
+              </div>
               <div className="flex justify-center gap-12">
               <a href="https://github.com/claudiacarion/claudiacarion-portfolio"><AiFillGithub className='text-2xl mt-5 cursor-pointer hover:text-two'/></a>
             </div>
