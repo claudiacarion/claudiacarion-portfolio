@@ -89,7 +89,7 @@ export default function Home(): JSX.Element {
             </div>
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-full">
               <h3 className=" text-lg font-bold text-center pb-3 md:text-xl">tools</h3>
-              <p className=" text-center text-sm md:text-md">Visual Studeio Code</p>
+              <p className=" text-center text-sm md:text-md">Visual Studio Code</p>
               <p className=" text-center text-sm md:text-md">Git + GitHub</p>
               <p className=" text-center text-sm md:text-md">Netlify</p>
               <p className=" text-center text-sm md:text-md">Contentful</p>
