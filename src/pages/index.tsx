@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
         <br/>
         Since then, no matter what I was studying or which field I was working in, I was always led back to computers.
         After working in education for many years, I decided to combine my passion for creativity with my interest in computers and become a developer.
-        The opportunity to join a bootcamp at School of Applied Technology in Stockholm came up and I jumped at the chance.
+        The opportunity to join a bootcamp at <a href="https://www.salt.dev/" className='cursor-pointer hover:text-two'>School of Applied Technology Stockholm</a> came up and I jumped at the chance.
         After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack JavaScript developer.
         </p>
           </div>
