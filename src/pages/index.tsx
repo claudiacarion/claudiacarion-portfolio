@@ -70,8 +70,8 @@ export default function Home(): JSX.Element {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-5">
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-full">
               <h3 className=" text-lg font-bold text-center pb-3 md:text-xl">languages</h3>
-              <p className=" text-center text-sm md:text-md">TypeScript</p>
               <p className=" text-center text-sm md:text-md">JavaScript</p>
+              <p className=" text-center text-sm md:text-md">TypeScript</p>
             </div>
             <div className=" bg-five w-full rounded-lg shadow-lg p-5 h-full">
               <h3 className=" text-lg font-bold text-center pb-3 md:text-xl">frontend</h3>
