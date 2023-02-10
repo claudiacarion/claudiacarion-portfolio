@@ -17,7 +17,7 @@ module.exports = {
       colors: {
         one: '#3B322C',
         two: '#9B6A6C',
-        three: '#B09398',
+        three: '#afcbc1',
         four: '#CEDFD9',
         five: '#f8f8f8'
       }
