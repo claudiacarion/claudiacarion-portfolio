@@ -53,7 +53,7 @@ export default function Home(): JSX.Element {
         For as long as I can remember, I&#39;ve been fascinated by computers.
         It amazed me that with a few clicks here and there, the computer would do things I wanted it to do.
         So I&#39;m not exaggerting when I say my mind was blown the first time I was introduced to HTML.
-        What?! I typed a bunch of of things on Notepad and it turned into a website?! That was the Y2K.
+        What?! I typed a bunch of things on Notepad and it turned into a website?! That was the Y2K.
         <br/>
         <br/>
         Since then, no matter what I was studying or which field I was working in, I was always led back to computers.
