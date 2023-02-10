@@ -43,7 +43,7 @@ export default function Home(): JSX.Element {
         </section>
 
         <section className="text-one py-12" id='about'>
-        <div className='text-2xl flex justify-center py-3 text-one'>
+        <div className='text-2xl flex justify-center pb-3 text-one'>
             <a href="#main"><IoMdArrowRoundUp className='cursor-pointer hover:text-three'/></a>
           </div>
         <div className="text-center px-5">
