@@ -4,12 +4,13 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import {TbBrowser} from 'react-icons/tb'
+import {IoMdArrowRoundDown} from 'react-icons/io'
+import {IoMdArrowRoundUp} from 'react-icons/io'
 import Image from 'next/image'
 import pfp from '/public/newpfp2bg.png'
 import lexicon from '/public/lexicon.png'
 import popin from '/public/popin.png'
 import meme from '/public/meme.png'
-import tinyblog from '/public/tinyblog.png'
 import portfolio from '/public/portfolio.png'
 
 export default function Home(): JSX.Element {
@@ -21,17 +22,8 @@ export default function Home(): JSX.Element {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="py-24 px-5 bg-four font-quicksand">
+      <main className="px-5 py-12 bg-four font-quicksand" id='main'>
         <section className="h-screen">
-          {/* <nav className="mb-1 flex justify-between">
-            <h1 className=" text-lg">welcome :)</h1>
-            <ul className=" flex items-center">
-              <li><BsFillMoonStarsFill className=" cursor-pointer text-xl"/></li>
-              <li>
-                <a href="#" className=" text-sm px-5 py-2 bg-three rounded ml-5">resume</a>
-                </li>
-            </ul>
-          </nav> */}
           <div className='relative mx-auto bg-five rounded-full shadow-lg w-64 h-64 overflow-hidden md:h-80 md:w-80'>
             <Image src={pfp} alt="pfp" layout="fill" objectFit='cover'/>
           </div>
@@ -41,16 +33,22 @@ export default function Home(): JSX.Element {
             <p className='text-md md:text-lg'>educator turned developer with a passion for creativity</p>
           </div>
           <div className='text-4xl flex justify-center gap-20 py-3 text-one'>
-            <a href="https://www.linkedin.com/in/claudia-pereira-carion/"><AiFillLinkedin className='cursor-pointer hover:text-two hover:text-5xl'/></a>
-            <a href="https://github.com/claudiacarion"><AiFillGithub className='cursor-pointer hover:text-two hover:text-5xl'/></a>
-            <a href="mailto:claudia.carion@appliedtechnology.se"><MdEmail className='cursor-pointer hover:text-two hover:text-5xl'/></a>
+            <a href="https://www.linkedin.com/in/claudia-pereira-carion/"><AiFillLinkedin className='cursor-pointer hover:text-two'/></a>
+            <a href="https://github.com/claudiacarion"><AiFillGithub className='cursor-pointer hover:text-two'/></a>
+            <a href="mailto:claudia.carion@appliedtechnology.se"><MdEmail className='cursor-pointer hover:text-two'/></a>
+          </div>
+          <div className='text-2xl flex justify-center gap-20 py-20 text-one'>
+            <a href="#about"><IoMdArrowRoundDown className='cursor-pointer hover:text-two '/></a>
           </div>
         </section>
 
-        <section className="text-one mb-24">
-        <div className=" text-center p-5">
-        <h2 className=" text-2xl font-bold text-center py-5">about me</h2>
-        <p className='text-md text-left md:mx-12 lg:mx-48 border-2 border-black'>
+        <section className="text-one py-12" id='about'>
+        <div className='text-2xl flex justify-center py-3 text-one'>
+            <a href="#main"><IoMdArrowRoundUp className='cursor-pointer hover:text-two'/></a>
+          </div>
+        <div className="text-center px-5">
+        <h2 className=" text-2xl font-bold text-center pb-5">about me</h2>
+        <p className='text-md text-left md:mx-12 lg:mx-60'>
         For as long as I can remember, I&#39;ve been fascinated by computers.
         It amazed me that with a few clicks here and there, the computer would do things I wanted it to do.
         So I&#39;m not exaggerting when I say my mind was blown the first time I was introduced to HTML.
@@ -60,7 +58,7 @@ export default function Home(): JSX.Element {
         Since then, no matter what I was studying or which field I was working in, I was always led back to computers.
         After working in education for many years, I decided to combine my passion for creativity with my interest in computers and become a developer.
         The opportunity to join a bootcamp at School of Applied Technology in Stockholm came up and I jumped at the chance.
-        After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack Javascript developer.
+        After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack JavaScript developer.
         </p>
           </div>
         </section>
