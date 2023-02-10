@@ -48,7 +48,7 @@ export default function Home(): JSX.Element {
           </div>
         <div className="text-center px-5">
         <h2 className=" text-2xl font-bold text-center pb-5">about me</h2>
-        <div className=" bg-five md:mx-12 lg:mx-48 rounded-lg shadow-lg p-5 h-full">
+        <div className=" bg-five md:mx-12 lg:mx-36 rounded-lg shadow-lg p-5 h-full">
         <p className='text-sm text-left md:text-md'>
         For as long as I can remember, I&#39;ve been fascinated by computers.
         It amazed me that with a few clicks here and there, the computer would do things I wanted it to do.
