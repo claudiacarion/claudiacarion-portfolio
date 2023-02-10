@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
           </div>
         </section>
 
-        <section className="text-one py-12" id='about'>
+        <section className="text-one p-12" id='about'>
         <div className='text-2xl flex justify-center py-3 text-one'>
             <a href="#main"><IoMdArrowRoundUp className='cursor-pointer hover:text-three'/></a>
           </div>
@@ -59,7 +59,7 @@ export default function Home(): JSX.Element {
         Since then, no matter what I was studying or which field I was working in, I was always led back to computers.
         After working in education for many years, I decided to combine my passion for creativity with my interest in computers and become a developer.
         The opportunity to join a bootcamp at <a href="https://www.salt.dev/" className='cursor-pointer hover:text-three'>School of Applied Technology Stockholm</a> came up and I jumped at the chance.
-        After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack JavaScript developer.
+        After an intensive 3-month course as one of over 1000 applicants, I graduated as a fullstack JavaScript developer in December 2022.
         </p>
           </div>
           </div>
